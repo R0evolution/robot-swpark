@@ -29,4 +29,4 @@ Sorting by price
     catalog.Sort by High price
 
 ผลการทำงานต้องแสดงจากผลจากแพงไปถูก
-    Wait Until Element Contains  xpath://*[@id="center_column"]/ul/li[3]/div/div[2]/h5  Printed Chiffon Dress
+    Wait Until Element Contains  xpath://*[@id="center_column"]/ul/li[3]/div/div[2]/h5/a  Printed Chiffon Dress
