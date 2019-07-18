@@ -1,3 +1,4 @@
+#Test Jenkins
 *** Settings ***
 Resource  ./pages/welcome.robot
 Resource  ./pages/catalog.robot
