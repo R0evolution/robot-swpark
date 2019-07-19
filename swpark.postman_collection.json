@@ -24,7 +24,7 @@
 							"",
 							"pm.test(\"username index 0 = Bret\", function () {",
 							"    var jsonData = pm.response.json();",
-							"    pm.expect(jsonData[0].username).to.eql('Bret0');",
+							"    pm.expect(jsonData[0].username).to.eql('Bret');",
 							"});"
 						],
 						"type": "text/javascript"
