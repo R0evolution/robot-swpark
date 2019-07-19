@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.3 on darwin)" generated="20190718 17:06:23.354" rpa="false">
+<suite id="s1" name="Flow Dress Sorting" source="/Users/rdev/RobotFrameWork/flow_dress_sorting.robot">
+<test id="s1-t1" name="Sorting by price">
+<kw name="เข้า web หน้าแรก">
+<kw name="Open" library="welcome">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>browser=${BROWSER}</arg>
+</arguments>
+<msg timestamp="20190718 17:06:23.532" level="INFO">Opening browser 'chrome' to base url 'http://automationpractice.com'.</msg>
+<status status="PASS" starttime="20190718 17:06:23.532" endtime="20190718 17:06:32.352"></status>
+</kw>
+<status status="PASS" starttime="20190718 17:06:23.532" endtime="20190718 17:06:32.352"></status>
+</kw>
+<status status="PASS" starttime="20190718 17:06:23.531" endtime="20190718 17:06:32.352"></status>
+</kw>
+<kw name="เข้าไปยังหน้า summerdress">
+<kw name="Choose menu Dresses" library="welcome">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="block_top_menu"]/ul/li[2]/a</arg>
+</arguments>
+<msg timestamp="20190718 17:06:32.354" level="INFO">Clicking element 'xpath://*[@id="block_top_menu"]/ul/li[2]/a'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190718 17:06:32.861" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20190718 17:06:32.376" endtime="20190718 17:06:32.861"></status>
+</kw>
+<msg timestamp="20190718 17:06:32.862" level="FAIL">Element with locator 'xpath://*[@id="block_top_menu"]/ul/li[2]/a' not found.</msg>
+<status status="FAIL" starttime="20190718 17:06:32.354" endtime="20190718 17:06:32.862"></status>
+</kw>
+<status status="FAIL" starttime="20190718 17:06:32.353" endtime="20190718 17:06:32.863"></status>
+</kw>
+<status status="FAIL" starttime="20190718 17:06:32.353" endtime="20190718 17:06:32.863"></status>
+</kw>
+<tags>
+<tag>done sprint1</tag>
+</tags>
+<status status="FAIL" starttime="20190718 17:06:23.531" endtime="20190718 17:06:32.863" critical="yes">Element with locator 'xpath://*[@id="block_top_menu"]/ul/li[2]/a' not found.</status>
+</test>
+<status status="FAIL" starttime="20190718 17:06:23.356" endtime="20190718 17:06:32.864"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">done sprint1</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Flow Dress Sorting">Flow Dress Sorting</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
